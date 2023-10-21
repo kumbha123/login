@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="#">Registration</a>
+        <a href="#">Contact</a>
+        <a href="about.html" >About</a>
+    
+      </div>
+      <div>
+      <div class="wrapper">
+            <h2>LOGIN PAGE</h2> 
+            <form class="login_form" action="about.html" method="post" name="form" onsubmit="return validated()">
+            <div class="input-box">
+                <label>Username : <input type="text" placeholder="enter user name" name="username" required></label>
+                <div id="username_error">Please fill up your username</div>
+            </div>
+            <br>
+            <div class="input-box">
+                <label>Password : <input type="password" placeholder="enter password" name="password" required>
+                <div id="password_error">Please fill up your password</div>
+            </div>
+            <br>
+            <div class="remember">
+                <label><input type="checkbox">Remember me</label>
+                &nbsp;
+                <a href="#">Forget Password ?</a>
+            </div>
+            &nbsp;
+            <div class="but">
+            <button type="submit" class="btn">Login</button>
+            </div>
+            <div class="register-link">
+                <p>Don't have an account?
+                <a href="#">Register</a></p>
+            </div>
+            </form>
+        </div>
+    </div>
+    <script src="vaild.js"></script>
+    </body>
+</html>

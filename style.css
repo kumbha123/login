@@ -1,0 +1,99 @@
+html{
+    background-image: url("WhatsApp\ Image\ 2023-10-21\ at\ 11.24.32\ AM\ \(1\).jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+}
+.topnav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    background-color: #100f10;
+    padding: 5px;
+    color: #fffbfb;
+}
+  
+.topnav a {
+    float:left;
+    color:rgb(247, 241, 241);
+    text-align: top;
+    padding: 12px 40px 16px 40px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #fdfdfd;
+    color: rgb(143, 69, 69);
+  }
+  
+  .topnav a.active {
+    background-color: #fdfdfd;
+    color: rgb(18, 17, 17);
+  }
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.wrapper{
+    width: 420px;
+    color: rgb(245, 241, 241);
+    border:2px solid;
+    border-radius: 10px;
+    background-color:black;
+}
+.wrapper h2{
+    font-size:x-large;
+   text-align: center;
+    font-style: inherit;
+}
+.wrapper .input-box{
+    font-size: large;
+   text-align: center;
+    font-style:normal;
+
+}
+.input-box #username_error,.input-box #password_error{
+    font-size:small;
+    color: rgb(237, 128, 137);
+    display: none;
+   
+}
+.wrapper .remeber{
+    font-size: small;
+   text-align: center;
+    font-style: italic;
+}
+.remember{
+    color:white;
+    text-decoration: none;
+    margin-right: 2px;
+    text-align: center;
+}
+.remember a{
+    text-align: center;
+    font-size: smaller;
+    color:white;
+
+}
+.but{
+    margin-right: 2px;
+    align-items: center;
+    text-align: center;
+}
+.register-link{
+    margin-right: 2px;
+    align-items: center;
+    text-align: center;
+
+}
+.register-link a{
+    margin-right: 2px;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+}
